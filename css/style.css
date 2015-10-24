@@ -1,5 +1,5 @@
 body {
-	background-color: #CCB894;
+	background-color: #73ad6d;
 	text-align: center;
 	margin-right: 100px;
 	margin-left: 100px;
@@ -8,7 +8,7 @@ body {
 	width: 75%;
 	height: 200px;
 	margin-bottom: 20px;
-	font-size: 40px;
+	font-size: 50px;
 	font-weight: bold;
 	margin-top: 50px;
 
@@ -17,6 +17,11 @@ h1 {
 	font-weight: bold;
 	padding-bottom: 20px;
 	padding-top: 20px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+p {
+	font-size: 30px;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
 .show-desktop {
@@ -24,6 +29,7 @@ h1 {
 }
 .show-mobile {
 	display: none;
+	
 }
 
 @media (max-width: 600px) {
@@ -33,9 +39,21 @@ h1 {
 
 	.show-mobile {
 		display: block;
+
 	}
 	body {
-		background-color: #77746E;
+		background-color: pink;
+
+
+	}
+	.box {
+		font-size: 30px;
+	}
+	h1 {
+		font-size: 30px;
+	}
+	p {
+		font-size: 20px;
 	}
 
 }
