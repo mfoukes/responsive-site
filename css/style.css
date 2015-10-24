@@ -1,9 +1,22 @@
+body {
+	background-color: #CCB894;
+	text-align: center;
+	margin-right: 100px;
+	margin-left: 100px;
+}
 .box {
 	width: 75%;
 	height: 200px;
-	background-color: cyan;
 	margin-bottom: 20px;
 	font-size: 40px;
+	font-weight: bold;
+	margin-top: 50px;
+
+}
+h1 {
+	font-weight: bold;
+	padding-bottom: 20px;
+	padding-top: 20px;
 }
 
 .show-desktop {
@@ -11,4 +24,24 @@
 }
 .show-mobile {
 	display: none;
+}
+
+@media (max-width: 600px) {
+	.show-desktop {
+		display: none;
+	}
+
+	.show-mobile {
+		display: block;
+	}
+	body {
+		background-color: #77746E;
+	}
+
+}
+.list {
+	width: 75%;
+	height: 200px;
+	margin-bottom: 20px;
+	font-size: 40px;
 }
